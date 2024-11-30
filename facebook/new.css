@@ -1,0 +1,116 @@
+
+body,h1,h2,p{
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-div{
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.signUp-div{
+    background-color: white;
+    
+    width: 430px;
+    border-radius: 8px;
+}
+
+.formTitle-div{
+    padding: 10px 16px;
+    border-bottom: #ccd0d5 1px solid;
+}
+h1{
+    
+    color: #0866ff;
+    font-size: 60px;
+    padding: 18px 0px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+p{
+    color: #606770;
+    text-align: center;
+}
+
+.formBody-div{
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.half-field{
+    display: flex;
+     
+    padding: 7px;
+    width: 46%; 
+}
+
+.full-field{
+    display: flex;
+    width: 100%;
+    padding: 7px;
+}
+
+.outerDropDown{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 7px;
+    
+}
+
+.dropdown{
+    width: 32%;
+}
+select{
+    border: #ccc 2px solid;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.DOB,#gender{
+    font-size: 14px;
+    padding-left: 10px;
+    color: #606770;
+}
+
+
+.outerGender{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 7px;
+}
+.gender{
+    display: flex;
+    justify-content: right;
+    border: solid #ccc 2px;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 26%;
+}
+
+
+.gender input{
+    margin: 0px;
+    width: auto;
+}
+
+input{
+    padding: 12px;
+    border-radius: 6px;
+    border:  #ccc solid 2px;
+    margin-bottom: 5px;
+    width: 100%;
+}
