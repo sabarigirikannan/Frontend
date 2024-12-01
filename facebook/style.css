@@ -1,62 +1,182 @@
-body,h1,h2{
+
+body,h1,h2,p{
     font-family: 'Roboto', sans-serif;
-    
+
     margin: 0px;
     padding: 0px;
 }
 
 .main-div{
     background-color: #f0f2f5;
-     display: flex;
-    /* justify-content: center; */
-    flex-direction: column; 
-    align-items : center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    
 }
 
-
-
-#logo{
-    color: #0866ff;
-    font-size: 55px;
-    padding: 20px 0px;
-}
-
-.Signup-div{
+.signUp-div{
     background-color: white;
-    width: 432px;
+    
+    width: 430px;
     border-radius: 8px;
 }
 
 .formTitle-div{
-    text-align: center;
     padding: 10px 16px;
-    border-bottom: 2px solid #f0f2f5;
+    border-bottom: #ccd0d5 1px solid;
 }
-
+h1{
+    
+    color: #0866ff;
+    font-size: 55px;
+    padding: 18px 0px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 5px;
+}
 p{
     color: #606770;
-    margin: 6px;
+    text-align: center;
 }
 
 .formBody-div{
     padding: 16px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
-input{   
-    
-    padding: 11px;
-    border: 2px solid #ccd0d5;
-    border-radius: 5px;
-    width: 375px;
-    
-}
-.half-width{
+.half-field{
     display: flex;
-    width: 50%;
+    padding: 5px;
+    width: 47%; 
 }
-.full-width{
+
+.full-field{
     display: flex;
     width: 100%;
+    padding: 5px;
+    
+}
+
+.outerDropDown{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    
+}
+
+.dropdown{
+    width: 32%;
+}
+select{
+    border: #ccc 1px solid;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.DOB,#gender{
+    font-size: 14px;
+    padding-left: 10px;
+    color: #606770;
+}
+
+
+.outerGender{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+.gender{
+    display: flex;
+    justify-content: right;
+    border: solid #ccc 1px;
+    padding: 11px;
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 26%;
+    
+}
+.gender label{
+    padding: 0px 28px 0px 10px;
+}
+
+.gender input{
+    margin: 0px;
+    width: auto;
+    margin-bottom: 2px;
+}
+
+input{
+    padding: 12px;
+    border-radius: 5px;
+    border:  #ccc solid 1px;
+    width: 100%;
+}
+
+.small-div{
+    padding: 5px;
+}
+
+
+
+small{
+    font-size: 11px;
+    color: #8f8f8f ;
+}
+
+.small-1{
+    margin: 11px 0;
+}
+small a{
+    text-decoration: none;
+    color: #385898;
+}
+
+small a:hover{
+    text-decoration: underline;
+}
+
+
+
+.sign-up-div{
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+    
+}
+
+.sign-up-div button{
+    background-color: #00a400;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 32px;
+    border-radius: 6px;
+    
+    
+}
+.sign-up-div button:hover{
+    cursor: pointer;
+}
+
+.already-div{
+    font-size: 17px;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.already-div a{
+    color: #1877f2;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
 }

@@ -3,53 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Signup</title>
+    <title>Document</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/facebook/style.css"/>
+    <link rel="stylesheet" href="/facebook/new.css"/>
 </head>
 <body>
     <div class="main-div">
-        <h1 id="logo">facebook</h1>
-        
+        <h1>facebook</h1>
         <form>
-            <div class="Signup-div">
+            <div class="signUp-div">
                 <div class="formTitle-div">
                     <h2>Create a new account</h2>
                     <p>It's quick and easy.</p>
                 </div>
                 <div class="formBody-div">
-                    <div class="half-width">
-                        <input type="text" placeholder="First name" >
-                        
+                    <div class="half-field">
+                        <input type="text" class="half-input" placeholder="First name"/>
                     </div>
-                    <div class="half-width">
-                        <!-- <input type="text" placeholder="First name" class="input-field"> -->
-                        <input type="text" placeholder="Surname">
+                    <div class="half-field">
+                        <input type="text" class="half-input" placeholder="First name"/>
+                    </div> 
+
+                    <label class="DOB">Date Of Birth</label>
+                    <div class="outerDropDown">
+                        <div class="dropdown">
+                            <select>
+                                <option value="1">1</option>
+                            </select>
+                        </div>
+                        <div class="dropdown">
+                            <select >
+                                <option value="1">1</option>
+                            </select>
+                        </div>
+                        <div class="dropdown">
+                            <select >
+                                <option value="1">1</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="full-width">
-                        <!-- <input type="text" placeholder="First name" class="input-field"> -->
-                        <input type="text" placeholder="Surname">
-                    </div>
-                    <div class="full-width">
-                        <!-- <input type="text" placeholder="First name" class="input-field"> -->
-                        <input type="text" placeholder="Surname">
-                    </div>
-                </div>
-                
-                <div class="formBody-div">
                     
+                    <label id="gender">Gender</label>
+                    <div class="outerGender">
+                        <div class="gender">
+                            <label >Female</label>
+                            <input name="gder" type="radio" />
+                        </div>
+                        <div class="gender">
+                            <label >Male</label>
+                            <input name="gder" type="radio" />
+                        </div>
+                        
+                        <div class="gender">
+                            <label >Custom</label>
+                            <input name="gder" type="radio" />
+                        </div>
+                    </div>
+
+
+                    <div class="full-field">
+                        <input  placeholder="Email Address"/>
+                    </div>
+                    <div class="full-field">
+                        <input  placeholder="New Password"/>
+                    </div> 
+
+                    <div class="small-div">
+                        <div class="small-1">
+                            <small>People who use our service may have uploaded your contact information to Facebook.
+                            <a href="https://www.facebook.com/help/637205020878504">Learn more.</a></small>
+                        </div>
+
+                        <div class="small-1">
+                            <small>By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update">Terms</a>, <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0">Privacy Policy</a> and <a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</small>
+                        </div>
+                    </div>
+
+                    <div class="sign-up-div">
+                        <button>Sign Up</button>
+                    </div>
+
+                    <div class="already-div">
+                        <a href="https://www.facebook.com/login/">Already have an account?</a>
+                    </div>
                 </div>
             </div>
-            
-
         </form>
     </div>
-
-
-    
-    
 </body>
 </html>
